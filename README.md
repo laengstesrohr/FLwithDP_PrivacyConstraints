@@ -45,6 +45,6 @@ python main.py --dataset mnist --iid --model cnn --epochs 50 --dp_mechanism Gaus
 
 The new version uses [Opacus](https://opacus.ai/) for **Per Sample Gradient Clip**, which limits the norm of the gradient calculated by each sample.
 
-##Sources
+## Sources
 
 The MNIST rotated dataset was cloned from this [repository](https://github.com/ChaitanyaBaweja/RotNIST.git). It is already downloaded and doesn't need to be converted anymore.
