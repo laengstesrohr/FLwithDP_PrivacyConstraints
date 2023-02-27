@@ -25,6 +25,10 @@ FYI, this code uses round-robin client selection to select each client equally o
 
 python main.py --dataset mnist --iid --model cnn --epochs 50 --dp_mechanism no_dp
 
+### MNIST rotated
+
+python main.py --dataset mnistrotated --iid --model cnn --epochs 50 --dp_mechanism no_dp
+
 ### Laplace Mechanism
 
 This code is a very simple DP mechanism. If a client's privacy budget is $\epsilon$ and the client is selected $T$ times, the client's budget for each noise injection is $\epsilon / T$. Run with the following command:
